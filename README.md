@@ -12,7 +12,7 @@ explore destinations and create personalized itineraries with Know Nepal AI.
 
 - [Project Overview](about/overview.md)
 - [Vision](about/vision.md)
-- [Project Scope](about/scope.md)
+- [Project Scope](about/what-is-know-nepal.md)
 
 ### Architecture
 
