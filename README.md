@@ -19,6 +19,7 @@ explore destinations and create personalized itineraries with Know Nepal AI.
 - [Architecture Overview](architecture/overview.md)
 - [System Context](architecture/system-context.md)
 - [Backend Architecture](architecture/backend.md)
+- [Frontend Architecture](architecture/frontend.md)
 - [Data Architecture](architecture/data.md)
 - [Request Lifecycle](architecture/request-lifecycle.md)
 
@@ -26,13 +27,13 @@ explore destinations and create personalized itineraries with Know Nepal AI.
 
 Documentation for the knowledge domains supported by Know Nepal.
 
-- Geography
-- Education
-- Destinations
-- Culture
-- History
-- Wildlife
-- Healthcare
+- [Geography](domains/geography.md)
+- [Education](domains/education.md)
+- [Destinations](domains/destinations.md)
+- [Culture](domains/culture.md)
+- [History](domains/history.md)
+- [Wildlife](domains/wildlife.md)
+- [Healthcare](domains/healthcare.md)
 
 ### Development
 
@@ -49,6 +50,7 @@ Documentation for the knowledge domains supported by Know Nepal.
 ### Architecture Decisions
 
 - [Architecture Decision Records](decisions/README.md)
+- [ADR-001: Modular Monolith](decisions/ADR-001-modular-monolith.md)
 
 ### Contributing
 
@@ -57,7 +59,7 @@ Documentation for the knowledge domains supported by Know Nepal.
 
 ### Project Status
 
-- [Current Status](status/current-state.md)
+- [Current State](status/current-state.md)
 - [Roadmap](status/roadmap.md)
 
 ## Documentation Principles
@@ -66,7 +68,8 @@ The documentation follows a few simple principles:
 
 - Document the system as it currently exists.
 - Keep implementation details in the source repositories.
-- Clearly distinguish implemented, in-progress, planned, and historical work.
+- Clearly distinguish implemented, in-progress, planned, and historical
+  work.
 - Avoid documenting secrets, credentials, or private configuration.
 - Prefer accurate technical information over marketing language.
 - Update documentation when significant architectural decisions change.
@@ -75,12 +78,28 @@ The documentation follows a few simple principles:
 
 The Know Nepal project is organized across multiple repositories.
 
-The core application is maintained separately from this public
-documentation repository.
+The core development repository is currently private and contains the
+primary application implementation.
 
-This repository focuses on documenting the project's architecture,
-development practices, system concepts, and other information useful
-to developers and contributors.
+Other project repositories may contain public documentation,
+infrastructure configuration, APIs, or other project components.
+
+This repository focuses on public technical documentation covering the
+project's architecture, domains, development practices, security,
+architectural decisions, and current status.
+
+## Contribution & Development Access
+
+The core Know Nepal development repository is maintained separately
+from this public documentation repository and is currently private.
+
+Developers interested in contributing to Know Nepal can join the
+project community through the **Discord server** linked in the
+Know Nepal organization README.
+
+The Discord server is the primary place for contributors to connect,
+discuss the project, and learn about opportunities to contribute to the
+development of Know Nepal.
 
 ## Source of Truth
 
